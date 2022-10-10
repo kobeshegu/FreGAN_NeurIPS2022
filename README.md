@@ -2,8 +2,9 @@
 
 ![image](./assets/teaser.png)
 
-> **Exploiting Frequency Components for Training GANs under Limited Data**
-> Mengping Yang, Zhe Wang, Ziqiu Chi, Yanbing Zhang
+> **Exploiting Frequency Components for Training GANs under Limited Data** <br>
+> Mengping Yang, Zhe Wang, Ziqiu Chi, Yanbing Zhang <br>
+> paper will be available soon
 
 
 [[Paper]()]
@@ -28,6 +29,10 @@ FYI, you need to install the clean-fid (use pip install clean-fid) and prdc (use
 
 ## Contact
 Fell free to contact me at kobeshegu@gmail.com if you have any questions or advices, thanks!
+
+## Acknowledgment
+Our code is built upon the excellent codebase of [[FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch)], we thank a lot for their work.
+We also thank [Dr. Yang Ceyuan(https://ceyuan.me/)] and the anonymous reviewers for their valuable suggestions during the rebuttal, which greatly help us improve the paper.
 
 ## BibTeX
 <!-- ```bibtex
