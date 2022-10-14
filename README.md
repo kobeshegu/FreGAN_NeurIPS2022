@@ -7,7 +7,7 @@
 > paper will be available soon
 
 
-[Paper]()
+[Paper](https://arxiv.org/abs/2210.05461)
 
 ## Abstract 
 Training GANs under limited data often leads to discriminator overfitting and memorization issues, causing divergent training. Existing approaches mitigate the overfitting by employing data augmentations, model regularization, or attention mechanisms. However, they ignore the frequency bias of GANs and take poor consideration towards frequency information, especially high-frequency signals that contain rich details. To fully utilize the frequency information of limited data, this paper proposes FreGAN, which raises the model's frequency awareness and draws more attention to producing high-frequency signals, facilitating high-quality generation. In addition to exploiting both real and generated images' frequency information, we also involve the frequency signals of real images as a self-supervised constraint, which alleviates the GAN disequilibrium and encourages the generator to synthesize adequate rather than arbitrary frequency signals. Extensive results demonstrate the superiority and effectiveness of our FreGAN in ameliorating generation quality in the low-data regime (especially when training data is less than 100). Besides, FreGAN can be seamlessly applied to existing regularization and attention mechanism models to further boost the performance.
@@ -35,12 +35,12 @@ Our code is built upon the excellent codebase of [FastGAN](https://github.com/od
 We also thank [Dr. Yang Ceyuan](https://ceyuan.me/) and the anonymous reviewers for their valuable suggestions during the rebuttal, which greatly help us improve the paper.
 
 ## BibTeX
-<!-- ```bibtex
+```bibtex
 @article{yang2022FreGAN,
 title   = {FreGAN: Exploiting Frequency Components for Training GANs under Limited Data},
 author  = {Yang, Mengping and Wang, Zhe and Chi, Ziqiu and Zhang, Yanbing},
-article = {},
+article = {arXiv preprint arXiv:2210.05461},
 year    = {2022} 
 }
-``` -->
+```
 
