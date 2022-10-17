@@ -50,7 +50,7 @@ if __name__ == "__main__":
     parser.add_argument('--dist', type=str, default='.')
     parser.add_argument('--size', type=int, default=256)
     parser.add_argument('--batch', default=16, type=int, help='batch size')
-    parser.add_argument('--n_sample', type=int, default=5000)
+    parser.add_argument('--n_sample', type=int, default=50000)
     parser.add_argument('--big', action='store_true')
     parser.add_argument('--im_size', type=int, default=256)
     parser.set_defaults(big=False)
